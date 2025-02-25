@@ -65,5 +65,6 @@ public class Main {
         devJoao.progredir();
         System.out.println("Conteúdos Inscritos: " + devJoao.getConteudosInscritos());
         System.out.println("Conteúdos Concluídos: " + devJoao.getConteudosConcluidos());
+        System.out.println("XP: " + devJoao.calcularTotalXp());
     }
 }
