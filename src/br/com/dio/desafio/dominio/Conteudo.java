@@ -9,6 +9,11 @@ public abstract class Conteudo {
 
     public abstract double calcularXp();
 
+    public Conteudo(String titulo, String descricao) {
+        setTitulo(titulo);
+        setDescricao(descricao);
+    }
+
     public String getTitulo() {
         return titulo;
     }
